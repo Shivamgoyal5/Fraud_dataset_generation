@@ -1,0 +1,25 @@
+﻿# Ignore all CSV datasets and results
+*.csv
+
+# Ignore dataset folder
+ieee-fraud-detection/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+
+# Ignore logs
+*.log
+
+# Ignore virtual environments and IDE files
+.venv/
+venv/
+.idea/
+.vscode/
